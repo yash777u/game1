@@ -4,8 +4,8 @@ import { FC, useState, useRef, useCallback, useEffect } from "react";
 import { Pause, Play, XCircle, Globe } from "react-feather";
 import useInterval from "./Time"
 
-const numRows = 25;
-const numCols = 35;
+const numRows = 30;
+const numCols = 30;
 
 // Directions: N, S, E, W, NE, NW, SE, SW
 const operations = [
