@@ -82,6 +82,7 @@ const Landing: FC = () => {
     }
 
     return (
+        
         <div className="container text-center py-5">
 
             <div
@@ -92,6 +93,7 @@ const Landing: FC = () => {
                     margin: "0 auto",
                 }}
             >
+                
                 {grid.map((rows, i) =>
                     rows.map((col, k) => (
                         <div
